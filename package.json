@@ -1,0 +1,36 @@
+{
+  "name": "issue-pr-bot",
+  "version": "1.0.0",
+  "description": "A Bot that uses events and commands to automate tasks and activity for github issues and pull requests. Written with Node.js and Octokit",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DesmondSanctity/issue-pr-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "octokit",
+    "github",
+    "automate",
+    "issues",
+    "pr"
+  ],
+  "author": "Desmond Obisi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DesmondSanctity/issue-pr-bot/issues"
+  },
+  "homepage": "https://github.com/DesmondSanctity/issue-pr-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "octokit": "^3.1.1",
+    "smee-client": "^1.2.3"
+  }
+}
